@@ -10,3 +10,11 @@ The World Bank indicators API provides 50 year of data over more than 1500 indic
 2. List of countries can be found at: http://api.worldbank.org/v2/countries
 
 Database used: SQLite
+
+The data service performs the following operations:
+1. Import a collection from the data service.
+2. Delete a collection with the data service.
+3. Retrieve the list of available collections.
+4. Retrieve a collection.
+5. Retrieve economic indicator value for given country and a year.
+6. Retrieve top/bottom economic indicator values for a given year
